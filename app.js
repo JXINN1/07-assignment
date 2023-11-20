@@ -34,7 +34,7 @@ function workingHours(req, res, next) {
   if (
     currentHour >= normalBusinessHours.open &&
     currentHour <= normalBusinessHours.close 
-    && day != 1
+    && day != 0
   ) {
 
     // if so, point the request to our static files
