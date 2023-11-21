@@ -1,8 +1,5 @@
 # Normal Business Hours
 
-*Part of an assignment for the ReCode class at NYU's IMA program, Fall 2023.*
-
-
 This assignment’s purpose is really relatable to me, as I'm always trying to find a balance between online and offline life. As we are exposed to the internet 24/7/365, we often lose time to seek the real value of life in this massive, complicated digital media world.
 
 For me personally, despite being a person who doesn’t spend that much time online on SNS and gaming, it still consists of a big portion of my life, as I almost forget everything when I scroll through endless YouTube shorts and watch TV series. It’s almost like addiction without noticing, which is really overwhelming as it feels like things are getting out of my control.
