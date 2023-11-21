@@ -56,5 +56,5 @@ Return value of getDay() method is an integer, between 0 and 6, representing the
   ``` 
 
   I used w3css. Put animation as text appearing from left side, right side, and center. 
-  Then also putThe w3-hover-color classes define the background hover color for html elements, 
-  showing red colored hover when i put mouse on Sunday, and green color hover when i put mouse on monday-saturday which it's open.
+  Then also put The w3-hover-color classes to define the background hover color for html elements, 
+  showing red colored hover when i put mouse on Sunday, and green color hover when i put mouse on monday-saturday which shows it's open.
