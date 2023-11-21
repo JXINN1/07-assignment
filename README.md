@@ -14,7 +14,7 @@ As a student, all of this doesn’t work as every day's schedule is irregular be
 
 
 ```javascript
-[
+
   // get the current time
   const currentTime = new Date();
 
@@ -47,7 +47,3 @@ Return value of getDay() method is an integer, between 0 and 6, representing the
  To exclude sunday(0) from open hours i added && day != 0 
 
 
-```javascript
-]
-
-```
