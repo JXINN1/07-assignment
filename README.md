@@ -46,4 +46,15 @@ Return value of getDay() method is an integer, between 0 and 6, representing the
 
  To exclude sunday(0) from open hours i added && day != 0 
 
+ ```html
 
+ <div class="w3-container w3-white w3-hover-red">
+<li> <span class="w3-center w3-animate-right">Sunday: Closed</span></li> </div>
+<div class="w3-container w3-white w3-hover-green">
+<li> <span class="w3-center w3-animate-right">Monday: 9:00-18:00</span></li> </div>
+
+  ``` 
+
+  I used w3css. Put animation as text appearing from left side, right side, and center. 
+  Then also putThe w3-hover-color classes define the background hover color for html elements, 
+  showing red colored hover when i put mouse on Sunday, and green color hover when i put mouse on monday-saturday which it's open.
