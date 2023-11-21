@@ -1,5 +1,8 @@
 # Normal Business Hours
 
+A link to my server:  http://137.184.70.208:3000/
+
+
 This assignment’s purpose is really relatable to me, as I'm always trying to find a balance between online and offline life. As we are exposed to the internet 24/7/365, we often lose time to seek the real value of life in this massive, complicated digital media world.
 
 For me personally, despite being a person who doesn’t spend that much time online on SNS and gaming, it still consists of a big portion of my life, as I almost forget everything when I scroll through endless YouTube shorts and watch TV series. It’s almost like addiction without noticing, which is really overwhelming as it feels like things are getting out of my control.
@@ -9,3 +12,42 @@ For normal business hours, I personally think it depends on which occupation I w
 
 As a student, all of this doesn’t work as every day's schedule is irregular besides the class schedule, so I'm also excited for the future, where I could decide my working hours and follow my own schedule and system to do my job and live a good life with my people. 
 
+
+```javascript
+[
+  // get the current time
+  const currentTime = new Date();
+
+  const day = currentTime.getDay();
+
+```
+I added .getDay() method of Date.
+Return value of getDay() method is an integer, between 0 and 6, representing the day of the week for the given date according to local time: 0 for Sunday, 1 for Monday, 2 for Tuesday, and so on. 
+
+```javascript
+
+  // get the hour
+  const currentHour = currentTime.getHours();
+
+  const normalBusinessHours = {
+    // 24 hour time
+    open: 9,
+    close: 18,
+  };
+  
+  // check if within normal business hours
+  if (
+    currentHour >= normalBusinessHours.open &&
+    currentHour <= normalBusinessHours.close 
+    && day != 0
+  ) 
+
+  ``` 
+
+ To exclude sunday(0) from open hours i added && day != 0 
+
+
+```javascript
+]
+
+```
